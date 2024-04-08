@@ -1,0 +1,78 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin: 0 70px;
+}
+
+.p1 {
+    font-size: 40px;
+}
+
+.contacts_header {
+    display: inline;
+    color: #000070;
+    font-size: 32px;
+    justify-content: start;
+
+}
+
+.contacts_count {
+    color: #8F8F8F80;
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.tab_select {
+    margin: 0 70px;
+    align-items: center;
+    display: flex;
+
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    height: 36px;
+}
+
+.tabs a {
+    color: #000070;
+    margin: 0 12px 0 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.mt_12 {
+    margin-top: 12px;
+}
+
+.contacts_fragment {
+    height: calc(100% - 144px);
+    /* margin-top: 227px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts_info{
+    text-align: center;
+}
+
+.no_contacts{
+    font-size: 20px;
+    margin-top: 8px;
+    font-weight: 400;
+}
+
+.contact_button button{
+    width: 250px;
+    padding: 8px;
+    background-color: #5555A8;
+    color: white;
+    border-radius: 10px;
+    border-color: #5555A8;
+    border-width: 0px;
+    cursor: pointer;
+}
