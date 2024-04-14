@@ -3,32 +3,74 @@
 <html>
 
 <head>
-    <title>Contacts</title>
+    <title>Create new contact</title>
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/reset-style.css">
+    <link rel="icon" href="../resourses/image/fav.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <form action="">
-        <div>
-            <label for="name">name</label>
-            <input type="text" id="name">
-        </div>
-        <div>
-            <label for="lastName">Last name</label>
-            <input type="text" id="lastName">
-        </div>
-        <div>
-            <label for="phone">phone</label>
-            <input type="text" id="phone">
-        </div>
-    </form>
 
-    <button onclick="window.location.href = 'index.html'">
-        Cancel
-    </button>
-    
-    <button onclick="window.location.href = 'tableContacts.html'">
-        Save contact
-    </button>
+<body>
+
+    <div class="container">
+        <div class="panel">
+            <div class="panel_header">
+                <div class="panel_header_label">Create new contact</div>
+                <div class="panel_header_button_cancel">
+                    <button>
+                        <img src="../resourses/image/cancel.png" alt="some">
+                    </button>
+                </div>
+
+            </div>
+            <div class="panel_contact">
+                <div class="container">
+                    <form action="" class="form">
+                        <div class="field">
+                            <label for="firstName">First name</label>
+                            <input type="text" id="firstName">
+                        </div>
+                        <div class="field">
+                            <label for="lastName">Last name</label>
+                            <input type="text" id="lastName">
+                        </div>
+                        <div class="field">
+                            <label for="phone">Phone number</label>
+                            <input type="text" id="phone">
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="text" id="email">
+                        </div>
+                        <div class="field">
+                            <label for="company_name">Company name</label>
+                            <input type="text" id="company_name">
+                        </div>
+                        <div class="field">
+                            <label for="job_title">Job Title</label>
+                            <input type="text" id="job_title">
+                        </div>
+                    </form>
+                    
+                    <div class="form_buttons">
+                        
+                        <a href="../html/tableContacts.html">
+                            <button class="button_cancel">Cancel</button>
+                        </a>
+                        <a href="../html/tableContacts.html">
+                            <button class="button_save">Save contact</button> 
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 
 
