@@ -6,6 +6,24 @@
     margin: 0 70px;
 }
 
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.success_label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.success_container {
+    display: none;
+    padding: 40px;
+    font-size: 30px;
+    color: green;
+}
+
+
 .contacts_header {
     display: inline;
     color: #000070;
@@ -55,9 +73,9 @@
     border-right: #FFFFFF;
     border-left: #FFFFFF;
     border-top: #FFFFFF;
-  
-    padding: 8px 16px;
+    color: #9F9F9F;
     font-size: 14px;
+    font-weight: 400;
     margin-bottom: 16px;
     line-height: 17px;
     height: 33px;
@@ -120,6 +138,7 @@ input::after {
     padding: 8px 24px;
     border: 1.5px solid #5555A8;
     border-radius: 10px;
+    line-height: 19px;
     background-color: #FFFFFF;
     margin-right: 16px;
     cursor: pointer;
@@ -129,6 +148,7 @@ input::after {
     color: #FFFFFF;
     font-weight: 600;
     padding: 8px 24px;
+    line-height: 19px;
     border: 1.5px solid #5555A8;
     border-radius: 10px;
     background-color: #5555A8;
