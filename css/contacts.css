@@ -10,8 +10,13 @@
     font-size: 40px;
 }
 
+body {
+    font-family: 'Inter', sans-serif;
+}
+
 .contacts_header {
     display: inline;
+    font-weight: 700;
     color: #000070;
     font-size: 32px;
     justify-content: start;
@@ -56,17 +61,17 @@
     align-items: center;
 }
 
-.contacts_info{
+.contacts_info {
     text-align: center;
 }
 
-.no_contacts{
+.no_contacts {
     font-size: 20px;
     margin-top: 8px;
     font-weight: 400;
 }
 
-.contact_button button{
+.contact_button button {
     width: 250px;
     padding: 8px;
     background-color: #5555A8;
