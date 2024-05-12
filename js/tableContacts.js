@@ -8,7 +8,7 @@ const EMPLOYERS = [
 
 document.addEventListener('DOMContentLoaded', function () {
     
-    EMPLOYERS.forEach(function(item){
+    EMPLOYERS.forEach(item => {
         let row = document.createElement('tr')
         row.innerHTML = `
         <td>${item[0]}</td>
