@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
         `
         document.querySelector('tbody').append(row)
     })
-  
-    document.getElementsByClassName("contacts_count")[0].innerHTML = '(' +EMPLOYERS.length + ' Contacts)'
-    document.getElementsByClassName("count_data")[0].innerHTML = 'All ' +EMPLOYERS.length
+    let counterEmployers = EMPLOYERS.length
+    document.getElementsByClassName('contacts_count')[0].innerHTML = '(' + counterEmployers + ' Contacts)'
+    document.getElementsByClassName('count_data')[0].innerHTML = 'All ' + counterEmployers
   });
